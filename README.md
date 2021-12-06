@@ -29,7 +29,7 @@
 
 ## Results
 * CLI Results
-![Results1](./CLI_Report.PNG)
+![Results1](./Cypress_CLI_Report.PNG)
 
 * cypress/cucumber-json and reports folders will be created under automatically after first run.
 * HTML Report Path `./reports/cucumber-html/index.html` <br />
