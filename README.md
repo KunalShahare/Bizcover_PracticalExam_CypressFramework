@@ -16,7 +16,7 @@
 
 ## Setup Project
 * Clone the source code from git as per below command.<br />
-```git clone https://github.com/KunalShahare/Bizcover_PracticalExam_CypressFramework.git```
+```git clone -b feature/circleci https://github.com/KunalShahare/Bizcover_PracticalExam_CypressFramework.git```
 * Import the Project into Visual Studio Code 
 * Open Terminal and Navigate to Project Directory
 * Run `npm install` to download all the dependencies / libraries.
