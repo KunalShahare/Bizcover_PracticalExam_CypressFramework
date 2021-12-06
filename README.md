@@ -1,7 +1,7 @@
 ## Cypress BDD(Gherkin) E2E Test Automation Framework
 
 ## Overview
-* This is E2E BDD Test Automation Framework in JavaScript is using (Cypress, cypress-cucumber-preprocessor, multiple-cucumber-html-reporter).
+* This E2E BDD Test Automation Framework in JavaScript is using (Cypress, cypress-cucumber-preprocessor, multiple-cucumber-html-reporter).
 * **Languages:** JavaScript/Node.JS
 * **Build/Dependency Management:** npm
 * **Testing Frameworks:** Cypress
@@ -47,6 +47,5 @@ workflows:
     jobs:
       - cypress/run
 ```
-* Pipeline results 
-<br />
-![Results2](./Pipeline_Results.PNG)
+* Pipeline results <br />
+![Results3](./Pipeline_Results.PNG)
