@@ -34,3 +34,19 @@
 * cypress/cucumber-json and reports folders will be created under automatically after first run.
 * HTML Report Path `./reports/cucumber-html/index.html` <br />
 ![Results2](./Cucumber_Report.PNG)
+
+## Cypress Circle CI Integration for CI & CT
+* CircleCI provides Orb for cypress to test without spending time configuring CircleCI. It also records results & provides a GUI.
+* The config is minimal since it uses commands from the Cypress orb, but can be expanded
+```
+version: 2.1
+orbs:
+  cypress: cypress-io/cypress@1
+workflows:
+  build:
+    jobs:
+      - cypress/run
+```
+* Pipeline results 
+<br />
+![Results2](./Pipeline_Results.PNG)
