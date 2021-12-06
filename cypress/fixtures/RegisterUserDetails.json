@@ -1,0 +1,19 @@
+{
+  "title": "Mr",
+  "firstname": "TestUser",
+  "lastname": "Bizcover",
+  "password": "Password@1",
+  "dobday": "14",
+  "dobmonth": "August",
+  "dobyear": "1988",
+  "company": "ABC ltd",
+  "addressline1": "Wentworth Road",
+  "addressline2": "",
+  "city": "New York",
+  "state": "New York",
+  "postalcode": "00001",
+  "country": "United States",
+  "additionalinformation": "test user",
+  "homephone": "",
+  "mobilephone": "1001001001"
+}
