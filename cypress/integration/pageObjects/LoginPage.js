@@ -13,10 +13,12 @@ class LoginPage{
     }
 
     login(){
-        this.emailAddressInput().clear()
-            .type('kunal.shahare@gmail.com');
-        this.passwordInput().clear()
-            .type('Password@1');
+        cy.fixture('LoginUser').then((user)=>{
+            this.emailAddressInput().clear()
+                .type(user.email);
+            this.passwordInput().clear()
+                .type(user.password);
+        })
         this.signInButton().click({force:true});
     }
 
