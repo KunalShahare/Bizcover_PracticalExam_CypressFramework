@@ -22,7 +22,7 @@
 * Run `npm install` to download all the dependencies / libraries.
 * Run `npm run cypress:open:local` to run the test using Cypress Runner in headed mode 
 * Run `npm run cypress:run:local` to run all the test using Cypress CLI headless mode
-* Run `cypress:run:generate-report` to run all the test in CLI mode and generate cucumber html report
+* Run `npm run cypress:run:generate-report` to run all the test in CLI mode and generate cucumber html report
 * Run `cypress:run:tags` to execute the tests based on smart cucumber tagging
 * Run `cypress:run:feature` to execute the test for a particular feature
 * Run `generate-report` to generate cucumber html report independently after test execution
